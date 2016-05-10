@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "com.uva.adrmart.tfg"
-        minSdkVersion 15
+        minSdkVersion 16
         targetSdkVersion 23
         versionCode 1
         versionName "1.0"
@@ -25,4 +25,8 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.2.0'
     compile 'com.google.android.gms:play-services:8.4.0'
     compile 'com.android.support:design:23.2.0'
+    compile 'com.google.android.gms:play-services-maps:4.3.23'
+    compile 'com.github.bumptech.glide:glide:3.6.1'
+    compile 'it.sephiroth.android.library.imagezoom:imagezoom:+'
+
 }

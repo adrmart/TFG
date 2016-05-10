@@ -15,16 +15,22 @@
                android:layout_width="100sp"
                android:layout_height="100sp"
                android:layout_marginRight="5dp"
+               android:foregroundGravity="top"
+               android:clickable="true"
                android:id="@+id/image1"/>
             <ImageView
                 android:layout_width="100sp"
                 android:layout_height="100sp"
                 android:layout_marginRight="5dp"
+                android:foregroundGravity="top"
+                android:clickable="true"
                 android:id="@+id/image2"/>
             <ImageView
                 android:layout_width="100sp"
                 android:layout_height="100sp"
                 android:layout_marginRight="5dp"
+                android:clickable="true"
+                android:foregroundGravity="top"
                 android:id="@+id/image3"/>
         </LinearLayout>
         <TextView
@@ -44,6 +50,7 @@
             android:textSize="10sp"
             android:visibility="visible"
             android:textStyle="bold"/>
+
     </LinearLayout>
 
 
